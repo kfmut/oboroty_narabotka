@@ -7,12 +7,19 @@
 
 Ссылка
 
+## Схема
+
+[Схема устройства в PDF-формате](board_schematic.pdf)
+
 ## Плата
 
 ![Бордвью](board_pcb.png)
 
 ## Спецификация(BOM)
 
+[Полная спецификация с артикулами по "Чип-и-Дип"](BOM.csv)
+
+Сокращённый вариант:
 Designator|Name|Quantity|Manufacturer|Manufacturer Part
 ----------|----|--------|------------|-----------------
 C1|0u1 / 50V|1|Murata|GRM319R71H104KA01J
