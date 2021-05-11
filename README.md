@@ -3,6 +3,31 @@
 ## Функции
 Считает обороты в минуту вращающегося вала мотора с помощью диска с прорезями/сверлениями и оптического датчика. Также выполняет подсчёт наработки мотора.
 
+## Спецификация(BOM)
+
+Designator|Name|Quantity|Manufacturer|Manufacturer Part
+----------|----|--------|------------|-----------------
+C1|0u1 / 50V|1|Murata|GRM319R71H104KA01J
+C2|10u / 10V|1|NoName|SMD-A
+C3,C4|22p / 50V|2|Murata|GRM3165C1H220JD01D
+C5|1u / 50V|1|Murata|GRM31MR71H105KA88L
+C6|10n / 50V|1|Murata|GRM319R71H103KA01D
+CON_I2C|MW-4M|1|Connfly|DS1066-4MVW6X
+CON_PWR|CWF-2MR|1|Connfly|DS1069-2MRW6SA
+D1|MBR0520L|1|ON Semiconductor|MBR0520L
+F1|MF-MSMF014 / 140mA|1|Bourns|MF-MSMF014
+LED_PW|LED-3216|1|NoName|LED-3216
+R1,R2|4k7|2|NoName|1206
+R3|6k2|1|NoName|1206
+R4|180|1|NoName|1206
+R5|2k2|1|NoName|1206
+R6|1M|1|NoName|1206
+SW_DBG|PLS-2|1|Connfly|DS1021-1*2SF11-B
+U1|ATtiny85-20PU|1|Atmel|ATtiny85-20PU
+U2|LP2985|1|Texas Instruments|LP2985AIM5X-5.0/NOPB
+U3|TCST1103|1|Vishay|TCST1103
+X1|16MHz|1|NoName|HC-49S
+
 ## Расчёт числа секторов на диске
 
 На ATTtny85 программа выдаёт около 80k отсчётов в секунду. Для уверенного измерения оборотов необходимо 3-4 отсчёта на каждое состояние(прорезь/диск), поэтому максимальное число состояний в секунду 20k-27k. Для 24k оборотов вала мотора, 400 оборотов в секунду, имеем максимум в 34( (27000/400)/2 ) прорези на диске.
