@@ -3,6 +3,14 @@
 ## Функции
 Считает обороты в минуту вращающегося вала мотора с помощью диска с прорезями/сверлениями и оптического датчика. Также выполняет подсчёт наработки мотора.
 
+## Проект EasyEDA
+
+Ссылка
+
+## Плата
+
+![Бордвью](board_pcb.png)
+
 ## Спецификация(BOM)
 
 Designator|Name|Quantity|Manufacturer|Manufacturer Part
@@ -21,7 +29,6 @@ R1,R2|4k7|2|NoName|1206
 R3|6k2|1|NoName|1206
 R4|180|1|NoName|1206
 R5|2k2|1|NoName|1206
-R6|1M|1|NoName|1206
 SW_DBG|PLS-2|1|Connfly|DS1021-1*2SF11-B
 U1|ATtiny85-20PU|1|Atmel|ATtiny85-20PU
 U2|LP2985|1|Texas Instruments|LP2985AIM5X-5.0/NOPB
