@@ -9,7 +9,7 @@
 
 ## Проект EasyEDA
 
-Ссылка
+https://oshwlab.com/kfmutrus/k-1-03_oboroty_narabotka
 
 ## Схема
 
